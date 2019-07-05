@@ -56,16 +56,18 @@ export default {
   position: relative;
   margin: .16rem .16rem 0 !important ;
   overflow: hidden;
+
 }
-.swiper-slide{
-	  width: 6rem;
-	}
-.banner-img {
-  // height: 1.04rem;
-  //width: 6rem;
-  height: 100%
-  display: block;
-  border-radius: .05vm;
+// .swiper-slide{
+//   width: 6rem;
+// 	}
+.banner-img{
+  width: 3.42rem;
+  height: 1.04rem;
+    //background-position: 50%;
+    display: block;
+    border-radius: 5px;
+    
 }
 .swiper-container .swiper-pagination{
 	height: .14vm;

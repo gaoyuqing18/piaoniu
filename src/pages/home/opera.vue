@@ -75,9 +75,9 @@ export default {
   color: #666;
   font-size: 3.2vw;
   max-width: 70px;
-  overflow: hidden;
+ // overflow: hidden;
   white-space: nowrap;
-  text-overflow: ellipsis;
+  //text-overflow: ellipsis;
 }
 
 .operating-position__item .poster-wrap {

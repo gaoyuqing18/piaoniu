@@ -7,6 +7,8 @@
           <opera></opera> 
           <serveEntry></serveEntry>
           <active-floor></active-floor>
+          <discount-floor></discount-floor>
+          <guess-like></guess-like>
     </div>
   </div>
 </template>
@@ -16,8 +18,9 @@
  import HomeEntry  from '../pages/home/HomeEntry'
  import opera from '../pages/home/opera'
   import serveEntry from '../pages/home/serveEntry'
-
-  import ActiveFloor from '@/components/ActiveFloor'
+  import ActiveFloor from '@/pages/home/ActiveFloor'
+import discountFloor from '@/pages/home/DiscountActivitice'
+import guessLike from '@/pages/home/GuessLike'
  import swiper from '../components/swiper'
 
 export default {
@@ -27,7 +30,9 @@ export default {
      HomeEntry,
      opera,
      serveEntry,
-     ActiveFloor
+     ActiveFloor,
+     discountFloor,
+     guessLike
 
   }
 }

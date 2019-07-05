@@ -11,7 +11,9 @@
             <active-floor-item
             v-for="item in list" 
             :key="item.id" 
-           :movie="item">
+           :movie="item"
+           :from="起"
+           >
      <!-- 定义一条数据为movie对象  可以使用 v-bind 来动态传递 prop子组件可以访问这个数据 -->
             </active-floor-item>
             
@@ -28,7 +30,7 @@
 </template>
 
 <script>
-import http from '../utils/http'
+import http from '../../utils/http'
 import ActiveFloorItem from '@/components/ActiveFloorItem'
 export default {
  
@@ -139,7 +141,7 @@ export default {
 }
 .activity-floor .activities .wrap .more .poster {
     background-size: cover;
-    background-image:url(../assets/styles/more.png);
+    background-image:url(../../assets/styles/more.png);
     height: 137px;
 }
 </style>
